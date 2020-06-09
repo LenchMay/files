@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 	ifstream in("input.txt");
-	int** m; // Äâóìåğíûé äèíàìè÷åñêèé ìàññèâ
+	int** m;
 
 	int rows, cols;
 	in >> rows >> cols;
@@ -67,7 +67,7 @@ int main() {
 	}
 
 	ifstream in2("input.txt");
-	int** mas; // Äâóìåğíûé äèíàìè÷åñêèé ìàññèâ
+	int** mas; // Ã„Ã¢Ã³Ã¬Ã¥Ã°Ã­Ã»Ã© Ã¤Ã¨Ã­Ã Ã¬Ã¨Ã·Ã¥Ã±ÃªÃ¨Ã© Ã¬Ã Ã±Ã±Ã¨Ã¢
 
 	in2 >> rows >> cols;
 
